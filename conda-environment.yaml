@@ -1,0 +1,9 @@
+name: robot-simulation
+channels:
+  - conda-forge
+dependencies:
+  - python==3.11
+  - pybullet==3.25
+  - pip
+  - pip:
+    - control==0.10.1
