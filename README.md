@@ -1,9 +1,9 @@
 # Self balancing robot simulation
 
 ## What / Why
-This repository contains the code necessary to run a simulation of a two wheeled self balancing robot. The robot uses a Linear–quadratic regulator (LQR) controller to maintain balance. All code needed to run the simulation in a PyBullet Real-Time Physics Simulation environment is included in this repository.
+This repository contains the code for running a simulation of a two wheeled self balancing robot. The robot uses a Linear–quadratic regulator (LQR) controller to maintain balance. Simulation is performed in the PyBullet Real-Time Physics environment.
 
-Why? The aim is to eventually switch the LQR controller implementation out for a neutral network trained through reinforcement learning. However, for now this simulation is for testing that a simulation can accurately model real world behavior when given the same inputs including robot physical characteristics, LQR gains, etc.
+Why? The aim is to eventually switch the LQR controller implementation out for a neutral network trained through reinforcement learning. However, for now this simulation is for testing that a simulation can accurately model [real world behavior](https://youtu.be/hfWJueCT_B8?si=km-ZGz6Nk78RbIZo) when given the same inputs including robot physical characteristics, LQR gains, etc.
 
 ![Animation of robot balancing in virtual simulation](./docs/balance_robot_sim.gif)
 
